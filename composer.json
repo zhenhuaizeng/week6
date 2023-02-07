@@ -1,0 +1,16 @@
+{
+  "name": "zhenhuai/328/week6",
+  "authors": [
+    {
+      "name": "Zhenhuai",
+      "email" : "zeng.zhenhuai@student.greenriver.edu"
+    },
+    {
+      "name": "Adam Wise",
+      "email" : "awise@student.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
