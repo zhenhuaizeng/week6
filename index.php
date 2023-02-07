@@ -40,6 +40,18 @@ $f3->route('GET /', function($f3){
 
     $f3->set('colors',array("red","blue","yellow"));
 
+    $cupcakes = array("chocolate" => "Chocolate Ganache", "strawberry" => "Strawberry Shortcake", "maple" => "Maple Walnut");
+
+    $f3 ->set('cupcakes', $cupcakes);
+
+    //Add a variable that stores your age
+    $f3 ->set("age",30);
+
+
+    // In the view page, if age is over 30, print "You are mature". Otherwise print,
+    //"You are a spring Chicken
+
+
     $view = new Template();
     echo $view -> render("views/info.html");
 });
